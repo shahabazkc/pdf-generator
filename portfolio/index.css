@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: monospace;
+    background-color: #171717;
+    font-size: medium;
+    color: grey;
+}
+
+@media only screen and (min-width: 700px) {
+    .domain-title{
+        font-size: 22px;
+    }
+    .items-link{
+        position: relative;
+        display: inline-block;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+        margin-left:5%;
+    }
+  }
+@media only screen and (max-width: 700px) {
+    .domain-title{
+        font-size: 18px;
+        margin-left: 25px;
+    }
+    .items-link{
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        margin-left:5%;
+    }
+  }
+.name-tag{
+    flex-direction: row;
+}
+.profile-section{
+    background-color: #171717;
+    background-size: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: left top; 
+}
+.profile-image{
+    border-radius: 50%;
+    margin-top: 5px;
+    height: 150px;
+}
+.name-sec{
+    color: grey;
+    margin-top: 25px;
+    max-width: 100%;
+}
+.items-views{
+    flex-direction: row;
+}
+.items-link::after {
+    content: "";
+    position: absolute;
+  }
+
+.items-link,
+.items-link:hover,
+.items-link:focus,
+.items-link:active {
+color: grey;
+  font: bolder;
+  text-decoration: none;
+  cursor: pointer;
+}
+.items-views .items-link::after{
+    top: 95%;
+    height: 2px;
+    width: 90%;
+    left: 5%;
+    background-color: teal;
+}
+.proj-icon{
+    font-size: 55px;
+}
+.items-views .items-link:hover::after{
+    height: 2px;
+    width: 90%;
+    left: 5%;
+    background-color: #412185;
+}
+.row{
+    max-width: 100%;
+    --bs-gutter-x: 0px;
+}
+#about,#header,#project-title,#contact-title{
+    text-align: center;
+}
+#projects{
+    margin-top: 10px;
+}
+.contact-form{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.label{
+    color: black;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  color: white;
+  position: relative;
+}
+
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.instagram-bg{
+  background: #DD4B39;
+}
+.linkedin-bg{
+    background:#3B5998;
+}
+.footer-widget{
+    margin-left: 15px;
+}
+.a-no-link{
+    text-decoration: none;
+    color: black;
+}
+.progress{
+    height: 1.5rem;
+}
+.icon-sec{
+    text-align: center;
+}
